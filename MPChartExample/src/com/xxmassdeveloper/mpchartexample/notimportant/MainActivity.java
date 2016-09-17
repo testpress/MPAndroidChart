@@ -13,7 +13,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-import com.github.mikephil.charting.utils.Utils;
+import com.github.testpress.mikephil.charting.utils.Utils;
 import com.xxmassdeveloper.mpchartexample.AnotherBarActivity;
 import com.xxmassdeveloper.mpchartexample.BarChartActivity;
 import com.xxmassdeveloper.mpchartexample.BarChartActivityMultiDataset;
@@ -46,7 +46,6 @@ import com.xxmassdeveloper.mpchartexample.ScrollViewActivity;
 import com.xxmassdeveloper.mpchartexample.StackedBarActivity;
 import com.xxmassdeveloper.mpchartexample.StackedBarActivityNegative;
 import com.xxmassdeveloper.mpchartexample.fragments.SimpleChartDemo;
-import com.xxmassdeveloper.mpchartexample.realm.RealmMainActivity;
 
 import java.util.ArrayList;
 
@@ -131,10 +130,10 @@ public class MainActivity extends Activity implements OnItemClickListener {
                 "BarChart positive / negative",
                 "This demonstrates how to create a BarChart with positive and negative values in different colors."));
 
-        ContentItem realm = new ContentItem(
-                "Realm.io Database",
-                "This demonstrates how to use this library with Realm.io mobile database.");
-        objects.add(realm);
+//        ContentItem realm = new ContentItem(
+//                "Realm.io Database",
+//                "This demonstrates how to use this library with Realm.io mobile database.");
+//        objects.add(realm);
 
         ContentItem time = new ContentItem(
                 "Time Chart",
@@ -274,19 +273,19 @@ public class MainActivity extends Activity implements OnItemClickListener {
                 i = new Intent(this, BarChartPositiveNegative.class);
                 startActivity(i);
                 break;
+//            case 28:
+//                i = new Intent(this, RealmMainActivity.class);
+//                startActivity(i);
+//                break;
             case 28:
-                i = new Intent(this, RealmMainActivity.class);
-                startActivity(i);
-                break;
-            case 29:
                 i = new Intent(this, LineChartTime.class);
                 startActivity(i);
                 break;
-            case 30:
+            case 29:
                 i = new Intent(this, FilledLineActivity.class);
                 startActivity(i);
                 break;
-            case 31:
+            case 30:
                 i = new Intent(this, HalfPieChartActivity.class);
                 startActivity(i);
                 break;

@@ -6,18 +6,18 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.components.AxisBase;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.XAxis.XAxisPosition;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.BarDataSet;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.formatter.AxisValueFormatter;
-import com.github.mikephil.charting.formatter.FormattedStringCache;
-import com.github.mikephil.charting.utils.ViewPortHandler;
+import com.github.testpress.mikephil.charting.charts.BarChart;
+import com.github.testpress.mikephil.charting.components.AxisBase;
+import com.github.testpress.mikephil.charting.components.XAxis;
+import com.github.testpress.mikephil.charting.components.XAxis.XAxisPosition;
+import com.github.testpress.mikephil.charting.components.YAxis;
+import com.github.testpress.mikephil.charting.data.BarData;
+import com.github.testpress.mikephil.charting.data.BarDataSet;
+import com.github.testpress.mikephil.charting.data.BarEntry;
+import com.github.testpress.mikephil.charting.data.Entry;
+import com.github.testpress.mikephil.charting.formatter.AxisValueFormatter;
+import com.github.testpress.mikephil.charting.formatter.FormattedStringCache;
+import com.github.testpress.mikephil.charting.utils.ViewPortHandler;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.text.DecimalFormat;
@@ -163,7 +163,7 @@ public class BarChartPositiveNegative extends DemoBase {
         }
     }
 
-    private class ValueFormatter implements com.github.mikephil.charting.formatter.ValueFormatter {
+    private class ValueFormatter implements com.github.testpress.mikephil.charting.formatter.ValueFormatter {
 
         private FormattedStringCache.PrimIntFloat mFormattedStringCache;
 

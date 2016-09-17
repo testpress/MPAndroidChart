@@ -3,10 +3,10 @@ package com.xxmassdeveloper.mpchartexample.custom;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.github.mikephil.charting.buffer.ScatterBuffer;
-import com.github.mikephil.charting.interfaces.datasets.IScatterDataSet;
-import com.github.mikephil.charting.renderer.scatter.ShapeRenderer;
-import com.github.mikephil.charting.utils.ViewPortHandler;
+import com.github.testpress.mikephil.charting.buffer.ScatterBuffer;
+import com.github.testpress.mikephil.charting.interfaces.datasets.IScatterDataSet;
+import com.github.testpress.mikephil.charting.renderer.scatter.ShapeRenderer;
+import com.github.testpress.mikephil.charting.utils.ViewPortHandler;
 
 /**
  * Custom shape renderer that draws a single line.

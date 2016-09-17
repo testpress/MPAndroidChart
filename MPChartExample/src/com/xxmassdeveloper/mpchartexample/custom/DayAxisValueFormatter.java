@@ -1,10 +1,8 @@
 package com.xxmassdeveloper.mpchartexample.custom;
 
-import com.github.mikephil.charting.charts.BarLineChartBase;
-import com.github.mikephil.charting.charts.Chart;
-import com.github.mikephil.charting.components.AxisBase;
-import com.github.mikephil.charting.formatter.AxisValueFormatter;
-import com.github.mikephil.charting.formatter.DefaultAxisValueFormatter;
+import com.github.testpress.mikephil.charting.charts.BarLineChartBase;
+import com.github.testpress.mikephil.charting.components.AxisBase;
+import com.github.testpress.mikephil.charting.formatter.AxisValueFormatter;
 
 /**
  * Created by philipp on 02/06/16.

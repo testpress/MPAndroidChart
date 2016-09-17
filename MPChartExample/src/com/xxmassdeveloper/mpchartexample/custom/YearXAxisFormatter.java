@@ -1,7 +1,7 @@
 package com.xxmassdeveloper.mpchartexample.custom;
 
-import com.github.mikephil.charting.components.AxisBase;
-import com.github.mikephil.charting.formatter.AxisValueFormatter;
+import com.github.testpress.mikephil.charting.components.AxisBase;
+import com.github.testpress.mikephil.charting.formatter.AxisValueFormatter;
 
 /**
  * Created by Philipp Jahoda on 14/09/15.

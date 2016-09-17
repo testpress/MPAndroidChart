@@ -8,11 +8,11 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
+import com.github.testpress.mikephil.charting.charts.LineChart;
+import com.github.testpress.mikephil.charting.components.Legend;
+import com.github.testpress.mikephil.charting.data.Entry;
+import com.github.testpress.mikephil.charting.data.LineData;
+import com.github.testpress.mikephil.charting.data.LineDataSet;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;

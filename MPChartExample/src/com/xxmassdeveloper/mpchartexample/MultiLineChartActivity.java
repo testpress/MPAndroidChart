@@ -10,16 +10,16 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.Legend.LegendPosition;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
-import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.testpress.mikephil.charting.charts.LineChart;
+import com.github.testpress.mikephil.charting.components.Legend;
+import com.github.testpress.mikephil.charting.components.Legend.LegendPosition;
+import com.github.testpress.mikephil.charting.data.Entry;
+import com.github.testpress.mikephil.charting.data.LineData;
+import com.github.testpress.mikephil.charting.data.LineDataSet;
+import com.github.testpress.mikephil.charting.highlight.Highlight;
+import com.github.testpress.mikephil.charting.interfaces.datasets.ILineDataSet;
+import com.github.testpress.mikephil.charting.listener.OnChartValueSelectedListener;
+import com.github.testpress.mikephil.charting.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;

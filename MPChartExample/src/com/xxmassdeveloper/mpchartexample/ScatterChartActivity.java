@@ -1,7 +1,6 @@
 
 package com.xxmassdeveloper.mpchartexample;
 
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -11,18 +10,18 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.charts.ScatterChart;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.Legend.LegendPosition;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.ScatterData;
-import com.github.mikephil.charting.data.ScatterDataSet;
-import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.interfaces.datasets.IScatterDataSet;
-import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.testpress.mikephil.charting.charts.ScatterChart;
+import com.github.testpress.mikephil.charting.components.Legend;
+import com.github.testpress.mikephil.charting.components.Legend.LegendPosition;
+import com.github.testpress.mikephil.charting.components.XAxis;
+import com.github.testpress.mikephil.charting.components.YAxis;
+import com.github.testpress.mikephil.charting.data.Entry;
+import com.github.testpress.mikephil.charting.data.ScatterData;
+import com.github.testpress.mikephil.charting.data.ScatterDataSet;
+import com.github.testpress.mikephil.charting.highlight.Highlight;
+import com.github.testpress.mikephil.charting.interfaces.datasets.IScatterDataSet;
+import com.github.testpress.mikephil.charting.listener.OnChartValueSelectedListener;
+import com.github.testpress.mikephil.charting.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.custom.CustomScatterShapeRenderer;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 

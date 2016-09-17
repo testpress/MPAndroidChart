@@ -1,7 +1,7 @@
 
 package com.xxmassdeveloper.mpchartexample.custom;
 
-import com.github.mikephil.charting.animation.EasingFunction;
+import com.github.testpress.mikephil.charting.animation.EasingFunction;
 
 /**
  * Example of a custom made animation EasingFunction.

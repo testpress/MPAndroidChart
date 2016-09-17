@@ -2,41 +2,39 @@
 package com.xxmassdeveloper.mpchartexample;
 
 import android.graphics.Color;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
-import com.github.mikephil.charting.charts.CombinedChart;
-import com.github.mikephil.charting.charts.CombinedChart.DrawOrder;
-import com.github.mikephil.charting.components.AxisBase;
-import com.github.mikephil.charting.components.Legend;
-import com.github.mikephil.charting.components.XAxis;
-import com.github.mikephil.charting.components.XAxis.XAxisPosition;
-import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.BarDataSet;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.BubbleData;
-import com.github.mikephil.charting.data.BubbleDataSet;
-import com.github.mikephil.charting.data.BubbleEntry;
-import com.github.mikephil.charting.data.CandleData;
-import com.github.mikephil.charting.data.CandleDataSet;
-import com.github.mikephil.charting.data.CandleEntry;
-import com.github.mikephil.charting.data.CombinedData;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.data.ScatterData;
-import com.github.mikephil.charting.data.ScatterDataSet;
-import com.github.mikephil.charting.formatter.AxisValueFormatter;
-import com.github.mikephil.charting.interfaces.datasets.IDataSet;
-import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.testpress.mikephil.charting.charts.CombinedChart;
+import com.github.testpress.mikephil.charting.charts.CombinedChart.DrawOrder;
+import com.github.testpress.mikephil.charting.components.AxisBase;
+import com.github.testpress.mikephil.charting.components.Legend;
+import com.github.testpress.mikephil.charting.components.XAxis;
+import com.github.testpress.mikephil.charting.components.XAxis.XAxisPosition;
+import com.github.testpress.mikephil.charting.components.YAxis;
+import com.github.testpress.mikephil.charting.data.BarData;
+import com.github.testpress.mikephil.charting.data.BarDataSet;
+import com.github.testpress.mikephil.charting.data.BarEntry;
+import com.github.testpress.mikephil.charting.data.BubbleData;
+import com.github.testpress.mikephil.charting.data.BubbleDataSet;
+import com.github.testpress.mikephil.charting.data.BubbleEntry;
+import com.github.testpress.mikephil.charting.data.CandleData;
+import com.github.testpress.mikephil.charting.data.CandleDataSet;
+import com.github.testpress.mikephil.charting.data.CandleEntry;
+import com.github.testpress.mikephil.charting.data.CombinedData;
+import com.github.testpress.mikephil.charting.data.Entry;
+import com.github.testpress.mikephil.charting.data.LineData;
+import com.github.testpress.mikephil.charting.data.LineDataSet;
+import com.github.testpress.mikephil.charting.data.ScatterData;
+import com.github.testpress.mikephil.charting.data.ScatterDataSet;
+import com.github.testpress.mikephil.charting.formatter.AxisValueFormatter;
+import com.github.testpress.mikephil.charting.interfaces.datasets.IDataSet;
+import com.github.testpress.mikephil.charting.utils.ColorTemplate;
 import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class CombinedChartActivity extends DemoBase {
 

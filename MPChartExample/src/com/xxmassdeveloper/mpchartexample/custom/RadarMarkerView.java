@@ -5,12 +5,10 @@ import android.content.Context;
 import android.graphics.Typeface;
 import android.widget.TextView;
 
-import com.github.mikephil.charting.components.MarkerView;
-import com.github.mikephil.charting.data.CandleEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.formatter.FormattedStringCache;
-import com.github.mikephil.charting.highlight.Highlight;
-import com.github.mikephil.charting.utils.Utils;
+import com.github.testpress.mikephil.charting.components.MarkerView;
+import com.github.testpress.mikephil.charting.data.Entry;
+import com.github.testpress.mikephil.charting.formatter.FormattedStringCache;
+import com.github.testpress.mikephil.charting.highlight.Highlight;
 import com.xxmassdeveloper.mpchartexample.R;
 
 import java.text.DecimalFormat;
